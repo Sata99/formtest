@@ -1,0 +1,256 @@
+.body{
+    
+} 
+.background{
+position: relative;
+width: 1440px;
+height: 900px;
+
+}
+.box1{
+position: absolute;
+width: 954px;
+height: 594px;
+left: 243px;
+top: 153px;
+
+background: #BE0909;
+box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.25);
+}
+.name{
+    position: absolute;
+    width: 200px;
+    height: 21px;
+    left : 80px;
+    top: 50px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    
+    color: #FEFFFF;
+}
+
+.full-name{
+position: absolute;
+background-color: #BE0909;
+/*border: none;*/
+left: 80px;
+top: 85px;
+width: 400px;
+border: none;
+color: #FCFFFF;
+letter-spacing: 0.1em;
+}
+
+.hr1{
+position: absolute;
+width: 400px;
+height: 0px;
+left: 85px;
+top: 100px;
+border: 1px solid #9DBEBB;
+}
+
+.email{
+position: absolute;
+width: 160px;
+height: 72px;
+left: 85px;
+top: 150px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #FCFFFF;
+
+
+}
+.your-email{
+position: absolute;
+width: 400px;
+height: 21px;
+left: 85px;
+top: 185px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+letter-spacing: 0.1em;
+
+color: #FDFFFF;
+background-color: #BE0909;
+border: none;
+
+}
+.hr2{
+position: absolute;
+width: 400px;
+height: 0px;
+left: 85px;
+top: 200px;
+border: 1px solid #9DBEBB;
+
+}
+.messag-regarding{
+    position: absolute;
+    width: 400px;
+    height: 21px;
+    left : 85px;
+    top: 250px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    
+    color: #FEFFFF;
+}
+
+.input-field{
+position: absolute;
+width: 400px;
+height: 21px;
+left: 85px;
+top: 285px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+text-transform: uppercase;
+
+color: #FEFFFF;
+background-color: #BE0909;
+border: #BE0909;
+}
+
+.hr3{
+    position: absolute;
+    width: 400px;
+    height: 0px;
+    left: 85px;
+    top: 300px;
+    border: 1px solid #9DBEBB;
+
+}
+
+.message{
+position: absolute;
+width: 400px;
+height: 72px;
+left: 85px;
+top: 350px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: rgba(254, 255, 255, 0.98);
+
+}
+.your-message{
+position: absolute;
+width: 400px;
+height: 21px;
+left: 85px;
+top: 385px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+letter-spacing: 0.3em;
+
+color: #FEFFFF;
+background-color: #BE0909;
+border: none;
+
+}
+
+.hr4{
+    position: absolute;
+width: 400px;
+height: 0px;
+left: 328px;
+top: 555px;
+
+border: 1px solid #9DBEBB;
+
+}
+.sumbit{
+    position: absolute;
+    width: 202px;
+    height: 48px;
+    left: 150px;
+    top: 500px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+background: #468189;
+box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+border-radius: 40px;
+border: none;
+}
+
+.box2{
+position: absolute;
+width: 345px;
+height: 594px;
+left: 852px;
+top: 153px;
+
+background: #FFB039;
+}
+
+.duck{
+    position: absolute;
+    width: 663px;
+    height: 603px;
+    left: 585px;
+    top: 205px;
+    
+    background: url(hiclipart.png)
+}
