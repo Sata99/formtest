@@ -1,28 +1,34 @@
-.body{
-    
-} 
 .background{
-position: relative;
-width: 1440px;
-height: 900px;
+    width: 1440px;
+    height: 900px;
+    j
 
 }
 .box1{
-position: absolute;
-width: 954px;
-height: 594px;
-left: 243px;
-top: 153px;
+   max-width: 250px;
+   max-height: 300px;
+   background-color: #BE0909;
+   padding-top: 100px;
+   padding-right: 310px;
+   padding-bottom: 190px;
+   padding-left: 50px;
+   margin-left: 243px;
+   margin-top: 153px;
+   
 
-background: #BE0909;
-box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.25);
+   
+
+}
+.box1{
+   width: 100%;
+   height: 100%;
 }
 .name{
-    position: absolute;
     width: 200px;
     height: 21px;
-    left : 80px;
-    top: 50px;
+    margin-left : 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
     
     font-family: 'Roboto';
     font-style: normal;
@@ -38,32 +44,30 @@ box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.25);
 }
 
 .full-name{
-position: absolute;
 background-color: #BE0909;
 /*border: none;*/
-left: 80px;
-top: 85px;
-width: 400px;
+margin-left: 20px;
+margin-top: 10px;
+width: 200px;
 border: none;
 color: #FCFFFF;
 letter-spacing: 0.1em;
+
 }
 
 .hr1{
-position: absolute;
 width: 400px;
 height: 0px;
-left: 85px;
-top: 100px;
+margin-left: 20px;
 border: 1px solid #9DBEBB;
+margin-bottom: 20px;
 }
 
 .email{
-position: absolute;
-width: 160px;
+width: 200px;
 height: 72px;
-left: 85px;
-top: 150px;
+margin-left: 20px;
+margin-top: 20px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -75,15 +79,15 @@ letter-spacing: 0.1em;
 text-transform: uppercase;
 
 color: #FCFFFF;
+margin-bottom: 20px;
 
 
 }
 .your-email{
-position: absolute;
-width: 400px;
+width: 200px;
 height: 21px;
-left: 85px;
-top: 185px;
+margin-left: 20px;
+margin-top: 20px;
 
 font-family: 'Roboto';
 font-style: normal;
@@ -100,20 +104,18 @@ border: none;
 
 }
 .hr2{
-position: absolute;
 width: 400px;
 height: 0px;
-left: 85px;
-top: 200px;
+margin-left: 20px;
 border: 1px solid #9DBEBB;
+margin-bottom: 20px;
 
 }
 .messag-regarding{
-    position: absolute;
-    width: 400px;
+    width: 200px;
     height: 21px;
-    left : 85px;
-    top: 250px;
+    margin-left : 20px;
+    margin-top: 20px;
     
     font-family: 'Roboto';
     font-style: normal;
@@ -129,11 +131,10 @@ border: 1px solid #9DBEBB;
 }
 
 .input-field{
-position: absolute;
 width: 400px;
 height: 21px;
-left: 85px;
-top: 285px;
+margin-left: 20px;
+margin-top: 20px;
 
 font-family: 'Roboto';
 font-style: normal;
@@ -151,21 +152,22 @@ border: #BE0909;
 }
 
 .hr3{
-    position: absolute;
+    
     width: 400px;
     height: 0px;
-    left: 85px;
-    top: 300px;
+    margin-left: 20px;
+    margin-top: 10px;
     border: 1px solid #9DBEBB;
+    margin-bottom: 20px;
+
 
 }
 
 .message{
-position: absolute;
 width: 400px;
 height: 72px;
-left: 85px;
-top: 350px;
+margin-left: 20px;
+margin-top: 40px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -177,14 +179,14 @@ letter-spacing: 0.1em;
 text-transform: uppercase;
 
 color: rgba(254, 255, 255, 0.98);
+margin-bottom: 20px;
 
 }
 .your-message{
-position: absolute;
 width: 400px;
 height: 21px;
-left: 85px;
-top: 385px;
+margin-left: 20px;
+margin-top: 20px;
 
 font-family: 'Roboto';
 font-style: normal;
@@ -198,25 +200,25 @@ letter-spacing: 0.3em;
 color: #FEFFFF;
 background-color: #BE0909;
 border: none;
+margin-bottom: 40px;
 
 }
 
 .hr4{
-    position: absolute;
+
 width: 400px;
 height: 0px;
-left: 328px;
-top: 555px;
+margin-left: 20px;
+margin-top: 20px;
 
 border: 1px solid #9DBEBB;
 
 }
 .sumbit{
-    position: absolute;
     width: 202px;
     height: 48px;
-    left: 150px;
-    top: 500px;
+   margin-left: 90px;
+    margin-top: 20px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -228,21 +230,27 @@ text-align: center;
 letter-spacing: 0.1em;
 text-transform: uppercase;
 
-color: #FFFFFF;
+color: rgb(210, 176, 176);
 background: #468189;
 box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
 border-radius: 40px;
-border: none;
+border: 1px solid #468189;;
 }
 
+.sumbit:hover{
+    color: white;
+}
+
+    
 .box2{
-position: absolute;
-width: 345px;
-height: 594px;
-left: 852px;
-top: 153px;
+    position: absolute;
+    width: 345px;
+    height: 594px;
+    left: 852px;
+    top: 153px;
 
 background: #FFB039;
+
 }
 
 .duck{
